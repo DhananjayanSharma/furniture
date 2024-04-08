@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --brown: rgb(77, 11, 11);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#logo {
+    width: 150px;
+    height: 200px;
+}
+
+.nav-item i {
+    color: rgba(153, 152, 152, 0.635);
+}
+
+.nav-item {
+    font-size: 25px;
+
+}
+
+#contactbtn {
+    background-color: var(--brown);
+    color: white;
+}
+
+#contactbtn:hover {
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+
+.main {
+    background-image: url(https://blog.common.com/blog/wp-content/uploads/2019/04/contemporary-furniture-home-interior-1866149.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.welcome {
+    padding-top: 8%;
+    padding-left: 8%;
+    color: white;
+}
+
+.welcome h1 {
+    margin-top: 2%;
+    font-size: 90px;
+
+}
+ #gbutton{
+    width: 25%;
+ }
+@media(max-width:600px){
+    .welcome h1{
+        font-size: 50px;
+    }
+    .nav-item i{
+        display: none;
+        
+    }
+    #gbutton{
+width: 75%;
+    }
+}
+
+
+.work {
+    margin-top: 0%;
+    background-image: url(https://th.bing.com/th/id/OIP.zKZE5ragNQSvnQqX4XeeaQHaEo?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.viewbtn {
+    border-color: var(--brown);
+    color: var(--brown);
+
+}
+
+.viewbtn:hover {
+    background-color: var(--brown);
+    color: white;
+}
+
+.imgdiv {
+    width: 100%;
+    height: 490px;
+    border: 5px solid var(--brown);
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+.hr {
+    width: 340px;
+    height: 5px;
+    background-color: var(--brown);
+}
+
+#gallery h1 {
+    padding-top: 5%;
+    font-weight: 600;
+}
+
+.image1 {
+    position: relative;
+    
+    height: 100%;
+}
+
+.rosewood {
+    width: 50%;
+    padding: 4%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.image2 {
+    position: relative;
+    
+}
+
+.image3 {
+    position: relative;
+    
+}
